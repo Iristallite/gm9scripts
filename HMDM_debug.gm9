@@ -32,7 +32,7 @@ encrypt "8:/hnme/HomeMenu_edited_enc.cia"
 echo "Cache updated.\nThe system will remain on."
 
 @key__A_Instructions
-echo "(1)\n \nBackup HOME Menu data is stored in\na cache.\nThe original data can be restored,\nor custom data can be installed."
+echo "(1)\n \HOME Menu data is stored in a cache.\nThe original data can be restored,\nor custom data can be installed."
 echo "(2)\n \nSince the data is stored in a cache,\nthe cache needs to be updated if the\ndata is edited."
 goto selection
 

@@ -34,6 +34,7 @@ echo "Cache updated.\nThe system will remain on."
 @key__A_Instructions
 echo "(1)\n \nBackup HOME Menu data is stored in\na cache.\nThe original data can be restored,\nor custom data can be installed."
 echo "(2)\n \nSince the data is stored in a cache,\nthe cache needs to be updated if the\ndata is edited."
+goto selection
 
 @key__X_Power_Off
 echo "The system will now shut down."

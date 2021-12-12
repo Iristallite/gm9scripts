@@ -18,7 +18,7 @@ poweroff
 
 @key__R_Install_custom_data
 install "8:/hnme/HomeMenu_edited_enc.cia"
-echo "HOME Menu data customized.\nThe system will now shut down."
+echo "Custom HOME Menu data installed.\nThe system will now shut down."
 poweroff
 
 @key__Y_Update_cache

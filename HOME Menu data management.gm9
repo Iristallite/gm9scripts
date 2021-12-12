@@ -1,0 +1,31 @@
+# Keep showing the "New Nintendo 2DS XL" splash screen
+# #set PREVIEW_MODE V:/GodMode9_splash.png
+# Full preview mode for debugging
+set PREVIEW_MODE full
+# Allow writes to SysNAND
+allow -a 1:/
+allow -a 8:/
+
+@selection
+labelsel -k -o -s "Manage HOME Menu data here." key__*
+echo "The system will now shut down."
+poweroff
+
+@key__L_Restore_original_data
+install "8:/hnme/HomeMenu_Orig_enc.cia"
+echo "Original HOME Menu data restored.\nThe system will now shut down."
+poweroff
+
+@key__R_Customize_data
+install "8:/hnme/HomeMenu_edited_enc.cia"
+echo "HOME Menu data customized.\nThe system will now shut down."
+poweroff
+
+@key__Y_Update_custom_data
+rm "8:/hnme/HomeMenu_edited*"
+cp "0:/cia/sysapp/HomeMenu_edited*" "8:/hnme"
+encrypt "8:/hnme/HomeMenu_edited_enc.cia"
+
+@key__X_Power_Off
+echo "The system will now shut down."
+poweroff

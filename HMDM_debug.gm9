@@ -24,8 +24,8 @@ poweroff
 @key__Y_Update_cache
 rm "8:/hnme/HomeMenu_edited.cia"
 rm "8:/hnme/HomeMenu_edited_enc.cia"
-cp "0:/cia/sysapp/HomeMenu_edited.cia" "8:/hnme"
-cp "0:/cia/sysapp/HomeMenu_edited_enc.cia" "8:/hnme"
+cp "0:/cia/sysapp/HomeMenu_edited.cia" "8:/hnme/"
+cp "0:/cia/sysapp/HomeMenu_edited_enc.cia" "8:/hnme/"
 echo "Testing encryption.\nIf this fails, further debugging\nwill be needed."
 echo "Commands tested so far:\n \nencrypt"
 encrypt "8:/hnme/HomeMenu_edited_enc.cia"

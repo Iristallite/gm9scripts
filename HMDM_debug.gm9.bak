@@ -22,9 +22,6 @@ echo "Custom HOME Menu data installed.\nThe system will now shut down."
 poweroff
 
 @key__Y_Update_cache
-if exist "8:/hnme/HomeMenu_edited.cia" rm "8:/hnme/HomeMenu_edited.cia" else goto copynew end
-if exist "8:/hnme/HomeMenu_edited_enc.cia" rm "8:/hnme/HomeMenu_edited_enc.cia" else goto copynew end
-@copynew
 cp "0:/cia/sysapp/HomeMenu_edited.cia" "8:/hnme/"
 cp "0:/cia/sysapp/HomeMenu_edited_enc.cia" "8:/hnme/"
 echo "Testing encryption.\nIf this fails, further debugging\nwill be needed."

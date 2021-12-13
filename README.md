@@ -3,3 +3,6 @@
 
 ## rehidupdate
  Copies rehid mappings onto SysNAND
+ 
+## screenshotcopy
+ Moves* screenshots from luma folders to "Screenshots" folder on SD card

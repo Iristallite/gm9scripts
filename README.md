@@ -6,3 +6,6 @@
  
 ## screenshotcopy
  Moves* screenshots from luma folders to "Screenshots" folder on SD card
+ 
+## updaten3ds
+ Copies n3ds settings folder to SysNAND

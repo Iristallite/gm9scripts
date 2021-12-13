@@ -24,10 +24,9 @@ poweroff
 @key__Y_Update_cache
 cp "0:/cia/sysapp/HomeMenu_edited.cia" "8:/hnme/HomeMenu_edited.cia"
 cp "0:/cia/sysapp/HomeMenu_edited_enc.cia" "8:/hnme/HomeMenu_edited_enc.cia"
-echo "Testing encryption.\nIf this fails, further debugging\nwill be needed."
-echo "Commands tested so far:\n \nencrypt"
 encrypt "8:/hnme/HomeMenu_edited_enc.cia"
 echo "Cache updated.\nThe system will remain on."
+goto selection
 
 @key__A_Instructions
 echo "(1)\n \nHOME Menu data is stored in a cache.\nThe original data can be restored,\nor custom data can be installed."

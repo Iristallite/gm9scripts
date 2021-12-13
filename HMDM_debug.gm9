@@ -22,8 +22,8 @@ echo "Custom HOME Menu data installed.\nThe system will now shut down."
 poweroff
 
 @key__Y_Update_cache
-cp "0:/cia/sysapp/HomeMenu_edited.cia" "8:/hnme/HomeMenu_edited.cia"
-cp "0:/cia/sysapp/HomeMenu_edited_enc.cia" "8:/hnme/HomeMenu_edited_enc.cia"
+cp -r "0:/cia/sysapp/HomeMenu_edited.cia" "8:/hnme/HomeMenu_edited.cia"
+cp -r "0:/cia/sysapp/HomeMenu_edited_enc.cia" "8:/hnme/HomeMenu_edited_enc.cia"
 encrypt "8:/hnme/HomeMenu_edited_enc.cia"
 echo "Cache updated.\nThe system will remain on."
 goto selection

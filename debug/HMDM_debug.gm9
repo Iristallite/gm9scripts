@@ -1,4 +1,4 @@
-# Keep showing the "New Nintendo 2DS XL" splash screen
+# #Keep showing the "New Nintendo 2DS XL" splash screen
 # #set PREVIEW_MODE V:/GodMode9_splash.png
 # Full preview mode for debugging
 set PREVIEW_MODE full
@@ -22,8 +22,9 @@ echo "Custom HOME Menu data installed.\nThe system will now shut down."
 poweroff
 
 @key__Y_Update_cache
-cp -r "0:/cia/sysapp/HomeMenu_edited.cia" "8:/hnme/HomeMenu_edited.cia"
-cp -r "0:/cia/sysapp/HomeMenu_edited_enc.cia" "8:/hnme/HomeMenu_edited_enc.cia"
+echo "If prompted, choose "Overwrite"
+cp "0:/cia/sysapp/HomeMenu_edited.cia" "8:/hnme/HomeMenu_edited.cia"
+cp "0:/cia/sysapp/HomeMenu_edited_enc.cia" "8:/hnme/HomeMenu_edited_enc.cia"
 encrypt "8:/hnme/HomeMenu_edited_enc.cia"
 echo "Cache updated.\nThe system will remain on."
 goto selection

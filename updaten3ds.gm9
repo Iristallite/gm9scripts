@@ -1,1 +1,3 @@
-c
+# Allow writes to n3ds folders
+allow -a "1:/rw/luma/n3ds"
+allow -a "0:/luma/n3ds"

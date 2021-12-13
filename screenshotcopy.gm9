@@ -1,1 +1,4 @@
-cp -
+# Allow writes to screenshot folders
+allow -a "1:/rw/luma/screenshots"
+allow -a "0:/luma/screenshots"
+allow -a "0:/Screenshots"

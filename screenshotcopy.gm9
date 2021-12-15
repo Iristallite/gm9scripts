@@ -4,6 +4,6 @@ allow -a "1:/rw/luma/screenshots"
 allow -a "0:/luma/screenshots"
 allow -a "0:/Screenshots"
 
-cp "0:/luma/screenshots/*" "0:/Screenshots/*"
-cp "1:/rw/luma/screenshots/*" "0:/Screenshots/*"
+cp -R "0:/luma/screenshots/*" "0:/Screenshots/"
+cp -R "1:/rw/luma/screenshots/*" "0:/Screenshots/"
 echo "Screenshots moved.\nThe system will remain on."

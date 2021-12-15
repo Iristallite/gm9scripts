@@ -1,3 +1,4 @@
+set PREVIEW_MODE full
 # Allow writes to rehid folders
 allow -a "1:/rw/rehid"
 allow -a "0:/rehid"

@@ -1,3 +1,4 @@
+set PREVIEW_MODE full
 # Allow writes to screenshot folders
 allow -a "1:/rw/luma/screenshots"
 allow -a "0:/luma/screenshots"

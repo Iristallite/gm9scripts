@@ -1,1 +1,7 @@
-b
+# Allow writes to rehid folders
+allow -a "1:/rw/rehid"
+allow -a "0:/rehid"
+
+rm "1:/rw/rehid"
+cp "0:/rehid" "1:/rw/rehud"
+echo "rehid folder updated.\nThe system will remain on."

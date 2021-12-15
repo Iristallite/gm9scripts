@@ -3,5 +3,5 @@ allow -a "1:/rw/luma/n3ds"
 allow -a "0:/luma/n3ds"
 
 rm "1:/rw/luma/n3ds"
-cp "0:/luma/n3ds" "1:/rw/luma/n3ds
+cp "0:/luma/n3ds" "1:/rw/luma/n3ds"
 echo "n3ds folder updated.\nThe system will remain on."

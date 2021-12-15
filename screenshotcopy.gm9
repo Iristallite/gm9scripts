@@ -1,9 +1,10 @@
 set PREVIEW_MODE full
 # Allow writes to screenshot folders
-allow -a "1:/rw/luma/screenshots"
-allow -a "0:/luma/screenshots"
+allow -a "1:/rw/luma/"
+allow -a "0:/luma/"
 allow -a "0:/Screenshots"
 
-cp -R "0:/luma/screenshots/*" "0:/Screenshots/"
-cp -R "1:/rw/luma/screenshots/*" "0:/Screenshots/"
+cp "0:/luma/screenshots/" "0:/Screenshots/sdcard/"
+cp "1:/rw/luma/screenshots/" "0:/Screenshots/nand/"
+rm "0:/luma/screenshots/"
 echo "Screenshots moved.\nThe system will remain on."

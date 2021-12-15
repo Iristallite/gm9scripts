@@ -4,5 +4,5 @@ allow -a "1:/rw/rehid"
 allow -a "0:/rehid"
 
 rm "1:/rw/rehid"
-cp "0:/rehid" "1:/rw/rehud"
+cp "0:/rehid" "1:/rw/rehid"
 echo "rehid folder updated.\nThe system will remain on."

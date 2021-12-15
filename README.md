@@ -7,7 +7,7 @@
 ## screenshotcopy
  Moves* screenshots from luma folders to "Screenshots" folder on SD card
  
- > *Actually copies, then deletes, because I'm to olazy to test if the `mv` command exists in gm9
+ > *Actually copies, then deletes, because I'm too lazy to test if the `mv` command exists in gm9
  
 ## updaten3ds
  Copies n3ds settings folder to SysNAND

@@ -1,2 +1,2 @@
-set PREVIEW_MODE off
+set PREVIEW_MODE "shutting down..."
 poweroff

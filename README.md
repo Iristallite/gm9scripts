@@ -1,5 +1,5 @@
 # gm9scripts
- Scripts I've written to automate stuff in GodMode9
+ Scripts I've written to automate stuff in [GodMode9](https://github.com/d0k3/GodMode9)
 
 ## rehidupdate
  Copies rehid mappings onto SysNAND
